@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*css reset code*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+	background:lightsalmon;
+	
+}
+
+.main_wrapper{
+	width:1100px;
+	height:auto;
+	margin:auto;
+	background:black;
+}
+
+.header_wrapper{
+	width:1100px;
+	height:150px;
+	margin:auto;
+	background-color: darkgray;
+}
+
+#logo{
+	float:left;
+}
+
+#banner{
+	width: 500px;
+    height: 149px;
+	float:right;
+}
+
+.content_wrapper{
+	width:1100px;
+	height:auto;
+	margin:auto;
+	background:pink;
+	font-size:25px;
+}
+
+#content_area{
+	width:900px;
+	/*height:auto;*/
+	float:right;
+	background:darkcyan;
+	
+}
+#products_box{
+	width:780px
+	text-align:center;
+	margin-left:30px;
+	margin-bottom:10px
+	
+	
+}
+#shopping_cart{
+	width:900px;
+	height:50px;
+	background:black;
+	color:white;
+}
+#title1,#title{
+	font-size:20px;
+	text-align:center;
+	
+}
+#single_product{
+	float:left;
+	margin-left:10px;
+	padding:10px;
+	
+}
+#single_product img{
+	border:3px solid black;
+}
+
+#sidebar{
+	width:200px;
+	height:736px;
+	float:left;
+	background:black;
+	
+}
+
+.menubar{
+	width:1100px;
+	height:50px;
+	background:gray;
+	margin-left:0px;
+}
+
+#footer{
+	width:1100px;
+	height:100px;
+	background:gray;
+	clear:both;
+	margin-left:0px;
+}
+
+#menu{
+	padding:0;
+	margin:0;
+	line-height:40px;
+	float:left;
+}
+
+#menu li{
+	display:inline;
+	list-style:none;
+}
+
+#menu a{
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	margin:2px;
+	font-size:22px;
+	font-family:cursive;
+}
+
+#menu a:hover{
+	color:orange;
+	font-weight:bolder;
+}
+#form{
+	float:right;
+	padding-right:15px;
+	line-height:50px;
+	
+}
+
+input{
+	border-radius:5px;
+}
+
+#text{
+	 height:25px;
+	 	font-family:cursive;
+		font-size:25px;
+
+}
+
+#search{
+	height:25px;
+	font-family:cursive;
+	background-color:yellow;
+	color:red;
+}
+
+#sidebar-title{
+	background-color:yellow;
+	color:red;
+	font-size:20px;
+	font-family:cursive;
+	padding:10px;
+	text-align:center;
+}
+
+#cats{
+	text-align:center;
+	padding:10px;
+}
+
+#cats li{
+	list-style:none;
+	margin:5px;
+	display:block;
+}
+#cats a{
+	color:white;
+	padding:8px;
+	margin:3px;
+	text-align:center;
+	font-size:25px;
+	text-decoration:none;
+	font-family:cursive;
+	
+
+}
+
+#cats a:hover{
+	color:orange;
+	font-weight:bolder;
+}
+
+#footer{
+	color: black;
+    text-align: center;
+    line-height: 102px;
+    font-size: 23px;
+}
