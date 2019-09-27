@@ -1,4 +1,4 @@
 # ecommerce
-An e-commerce website made for our Web Technologies project
+An e-commerce website made for my Web Technologies project
 
 To run the project, fire the SQL query given.
